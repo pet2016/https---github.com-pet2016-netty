@@ -5,6 +5,9 @@ import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
 import java.nio.channels.SocketChannel;
 
+/**
+ * NIO Client that connects to the NIO server and sends a message.
+ */
 public class NioClient {
     public static void main(String[] args) throws IOException {
         SocketChannel client = SocketChannel.open();
